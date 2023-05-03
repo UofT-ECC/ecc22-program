@@ -1,0 +1,15 @@
+---
+title: "Monday, May 8th (AM)"
+---
+----
+
+## Development of a simplified oxygenated system for in vivo solution state NMR 
+
+*Peter Costa and Andre Simpson *
+
+The use of flow systems is critical for sustaining aquatic organisms for environmental toxicology and allowing for in vivo solution-state NMR studies in their native and unaltered state. Current approaches use flow lines that have the potential to burst and clog, require large volumes of media, and multiple expensive HPLC pumps. The “bubble pump” described here provides several unique advantages such as no clogging, small and constant solution volume, and no need for pumps or fluid lines in and out of the spectrometer. The system’s design involves two core components: a dual slit adapter and an oxygen generator. The addition of oxygen gas forms bubbles which rise and leave an area of reduced pressure that pulls in water from above the double slit and down into the chamber that contains the Daphnia. The result is a constant flow of oxygenated water over the organism, operating solely from one oxygen line.  To evaluate the efficacy of the system, lactic acid, a metabolite that is strongly associated with anoxic stress in D. magna, is observed in the presence and absence of oxygen by time-resolved monitoring using 1H NMR. Without oxygen, there is a large build-up of lactic acid after 10 hours. However, with a continuous supply of oxygen, there is no lactic acid even after 22 hours of exposure. The oxygenated flow system is designed for in vivo solution-state NMR, for both large and smaller diameter probes with potential applications in toxicity and metabolomics-based research. 
+
+```{r, echo = FALSE, fig.align = 'center', fig.cap = "(Left) Schematic of an oxygenated system in a 10 mm NMR tube with D. magna. The black arrow indicates the active flow of current from movement of oxygen bubbles. (Right) ^1^H NMR spectra of D. magna (n = 40) in the presence and absence of oxygen exposure. Lactic acid is observed (grey box) in absence of oxygen exposure."}
+knitr::include_graphics("images/mondayAM/PeterC.png")
+```
+
