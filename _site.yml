@@ -1,0 +1,12 @@
+name: "ECC22"
+navbar:
+  title: "ECC XXII Program"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Monday, AM"
+      href: Monday_AM.html
+    - text: "Monday, PM"
+      href: Monday_PM.html
+    - text: "Wednesday, AM"
+      href: Wednesday_AM.html
