@@ -1,4 +1,7 @@
 name: "ECC22"
+output:
+  html_document:
+    theme: cosmo
 navbar:
   title: "ECC XXII Program"
   left:
