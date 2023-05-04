@@ -13,7 +13,7 @@
 
 <title>Welcome!</title>
 
-<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -178,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -187,9 +187,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -281,7 +288,8 @@ the University of Toronto. This year’s ECC will be held in person at the
 Evergreen Brick Works on May 8th and at the University of Toronto
 (St. George campus) on May 10th. In light of the uncertainties over the
 past few years during the global pandemic we are excited to come
-together in person once again. We would gladly like, and reconnect our
+together in person once again. We would gladly like to welcome Brent and
+Nick for our career panel on May 8th to nurture new networks within our
 Environmental Chemistry Community.</p>
 <p>We encourage everyone to take this time to interact with your peers
 and faculty. We strive to offer everyone an exciting and rewarding
