@@ -2,8 +2,41 @@
 title: "Welcome!"
 ---
 
-Hello, Website!
+Hello Enviro Chemist,
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+On behalf of the organizing team, we are delighted and privileged to welcome you to the 22nd Environmental Chemistry Colloquium (ECCXXII) at the University of Toronto. This year’s ECC will be held in person at the Evergreen Brick Works on May 8th and at the University of Toronto (St. George campus) on May 10th. In light of the uncertainties over the past few years during the global pandemic we are excited to come together in person once again. We would gladly like, and reconnect our Environmental Chemistry Community.
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+We encourage everyone to take this time to interact with your peers and faculty. We strive to offer everyone an exciting and rewarding program, and we hope that you will have an enjoyable ECCXXII! 
+
+Andrew, Carolyn, and Isla
+May 2023
+
+**Student Organizers**
+
+- Andrew Folkerson -  [andrew.folkerson@mail.utoronto.ca](andrew.folkerson@mail.utoronto.ca)
+- Carolyn Liu-Kang -  [carolyn.liukang@mail.utoronto.ca](carolyn.liukang@mail.utoronto.ca) 
+- Isla Wrightson - [isla.wrightson@mail.utoronto.ca](isla.wrightson@mail.utoronto.ca)
+
+**Faculty advisor** 
+
+- Prof. Hui Peng - [hui.peng@utoronto.ca](hui.peng@utoronto.ca) 
+
+
+### Special thanks to the following:
+
+**Career panel**
+
+- Brent Pautler from [SiREM Labs](https://www.siremlab.com/)
+- Nick Key from JFR Science
+
+
+**Social media ambassadors** ([@EnviroChemUofT on twitter](https://twitter.com/EnviroChemUofT)): 
+
+- Kristen Yeh
+- Isla Wrightson 
+
+**Program cover design**
+
+- Kristen Yeh
+
+Special thanks to previous organizers, Zilin Zhou and Sivani Baskaran, for their ECC SOP. Thanks to Lisa Ngo and Jeannie Pak at the business office for managing our funds.

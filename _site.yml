@@ -10,3 +10,5 @@ navbar:
       href: Monday_PM.html
     - text: "Wednesday, AM"
       href: Wednesday_AM.html
+    - text: "Committee Meeting"
+      href: meetings.html

@@ -1,0 +1,17 @@
+---
+title: "Committee Meeting Schedule"
+---
+
+<br>
+
+## Professor's Schedule
+
+<br>
+
+![](images/prof_schedule.png)
+
+## Student's Schedule
+
+<br>
+
+![](images/student_schedule.png)

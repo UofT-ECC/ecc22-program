@@ -13,7 +13,7 @@
 
 <title>Welcome!</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -178,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -187,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -261,6 +254,9 @@ $(document).ready(function () {
 <li>
   <a href="Wednesday_AM.html">Wednesday, AM</a>
 </li>
+<li>
+  <a href="meetings.html">Committee Meeting</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -278,17 +274,56 @@ $(document).ready(function () {
 </div>
 
 
-<p>Hello, Website!</p>
-<p>For more information about simple R Markdown websites, please read
-the documentation at <a
-href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html"
-class="uri">https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html</a>.</p>
-<p>Please also note that simple R Markdown sites are <em>not</em> based
-on <strong>blogdown</strong>. They are probably good for websites with
-only a few Rmd documents. For larger-scale and more sophisticated
-websites (such as blogs), you may want to use <strong>blogdown</strong>
-instead: <a href="https://github.com/rstudio/blogdown"
-class="uri">https://github.com/rstudio/blogdown</a>.</p>
+<p>Hello Enviro Chemist,</p>
+<p>On behalf of the organizing team, we are delighted and privileged to
+welcome you to the 22nd Environmental Chemistry Colloquium (ECCXXII) at
+the University of Toronto. This year’s ECC will be held in person at the
+Evergreen Brick Works on May 8th and at the University of Toronto
+(St. George campus) on May 10th. In light of the uncertainties over the
+past few years during the global pandemic we are excited to come
+together in person once again. We would gladly like, and reconnect our
+Environmental Chemistry Community.</p>
+<p>We encourage everyone to take this time to interact with your peers
+and faculty. We strive to offer everyone an exciting and rewarding
+program, and we hope that you will have an enjoyable ECCXXII!</p>
+<p>Andrew, Carolyn, and Isla May 2023</p>
+<p><strong>Student Organizers</strong></p>
+<ul>
+<li>Andrew Folkerson - <a
+href="andrew.folkerson@mail.utoronto.ca">andrew.folkerson@mail.utoronto.ca</a></li>
+<li>Carolyn Liu-Kang - <a
+href="carolyn.liukang@mail.utoronto.ca">carolyn.liukang@mail.utoronto.ca</a></li>
+<li>Isla Wrightson - <a
+href="isla.wrightson@mail.utoronto.ca">isla.wrightson@mail.utoronto.ca</a></li>
+</ul>
+<p><strong>Faculty advisor</strong></p>
+<ul>
+<li>Prof. Hui Peng - <a
+href="hui.peng@utoronto.ca">hui.peng@utoronto.ca</a></li>
+</ul>
+<div id="special-thanks-to-the-following" class="section level3">
+<h3>Special thanks to the following:</h3>
+<p><strong>Career panel</strong></p>
+<ul>
+<li>Brent Pautler from <a href="https://www.siremlab.com/">SiREM
+Labs</a></li>
+<li>Nick Key from JFR Science</li>
+</ul>
+<p><strong>Social media ambassadors</strong> (<a
+href="https://twitter.com/EnviroChemUofT"><span
+class="citation">@EnviroChemUofT</span> on twitter</a>):</p>
+<ul>
+<li>Kristen Yeh</li>
+<li>Isla Wrightson</li>
+</ul>
+<p><strong>Program cover design</strong></p>
+<ul>
+<li>Kristen Yeh</li>
+</ul>
+<p>Special thanks to previous organizers, Zilin Zhou and Sivani
+Baskaran, for their ECC SOP. Thanks to Lisa Ngo and Jeannie Pak at the
+business office for managing our funds.</p>
+</div>
 
 
 
