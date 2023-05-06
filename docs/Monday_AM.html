@@ -13,7 +13,7 @@
 
 <title>Monday, May 8th (AM)</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -178,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -187,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -483,13 +476,13 @@ introduce two new targeted pulse sequences: an in phase anti-phase
 and a 2D HCCH-TOCSY to obtain additional correlations whilst maintaining
 high resolution in a narrow band.</p>
 <div class="figure" style="text-align: center">
-<img src="images/mondayAM/WilliamW.png" alt="Carbonyl edited constant time HSQC applied to ex-vivo uniformly ^13^C-labelled *D. magna* processed to produce the sum (a) and difference (b) from the IPAP acquisition scheme. (a): the “remaining” signals not selected by the scheme (b): amino acid and organic acid signals. The green box in (b) highlights the a-amino acid region. Assignments generated from *Bruker Bio-reference databases 2-0-0 through 2-0-5.*" width="614" />
+<img src="images/mondayAM/WilliamW.png" alt="Carbonyl edited constant time HSQC applied to ex-vivo uniformly ^13^C-labelled *D. magna* processed to produce the sum (a) and difference (b) from the IPAP acquisition scheme. (a): the “remaining” signals not selected by the scheme (b): amino acid and organic acid signals. The green box in (b) highlights the α-amino acid region. Assignments generated from *Bruker Bio-reference databases 2-0-0 through 2-0-5.*" width="614" />
 <p class="caption">
 Carbonyl edited constant time HSQC applied to ex-vivo uniformly
 <sup>13</sup>C-labelled <em>D. magna</em> processed to produce the sum
 (a) and difference (b) from the IPAP acquisition scheme. (a): the
 “remaining” signals not selected by the scheme (b): amino acid and
-organic acid signals. The green box in (b) highlights the a-amino acid
+organic acid signals. The green box in (b) highlights the α-amino acid
 region. Assignments generated from <em>Bruker Bio-reference databases
 2-0-0 through 2-0-5.</em>
 </p>
